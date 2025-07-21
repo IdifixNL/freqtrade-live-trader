@@ -111,8 +111,8 @@
         "enable_openapi": false,
         "jwt_secret_key": "your-secret-key-here",
         "CORS_origins": [],
-        "username": "",
-        "password": ""
+        "username": "nicoadmin11",
+        "password": "dsfmf932jrdsaiMsdfiMsodfmnsdfolsdfmsdpMFS03"
     },
     "bot_name": "freqtrade",
     "initial_state": "running",

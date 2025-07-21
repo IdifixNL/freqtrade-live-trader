@@ -20,18 +20,4 @@ services:
       --strategy UltraCreativeStrategy_20250721_210729_iter_2
       --db-url sqlite:///tradesv3_ultra_creative_strategy_20250721_210729_iter_2.db
 
-  postgres:
-    image: postgres:15
-    container_name: freqtrade-postgres
-    restart: unless-stopped
-    environment:
-      POSTGRES_DB: freqtrade
-      POSTGRES_USER: freqtrade
-      POSTGRES_PASSWORD: freqtrade
-    volumes:
-      - postgres_data:/var/lib/postgresql/data
-    # ports:
-    #   - "5433:5432"
-
-volumes:
-  postgres_data: 
+ 
