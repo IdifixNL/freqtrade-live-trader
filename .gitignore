@@ -1,0 +1,22 @@
+# Environment files with secrets
+.env
+.env.local
+.env.production
+
+# Logs
+*.log
+
+# Database files
+*.db
+*.sqlite
+
+# Docker
+.dockerignore
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db 
