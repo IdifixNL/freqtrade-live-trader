@@ -10,6 +10,7 @@ services:
     volumes:
       - ./user_data:/freqtrade/user_data
       - ./config:/freqtrade/config
+      - ./data:/freqtrade/data
 
     environment:
       - FT_CONFIG_PATH=/freqtrade/config/config.json
@@ -18,7 +19,7 @@ services:
     command: >
       trade
       --config /freqtrade/config/config.json
-      --strategy UltraCreativeStrategy_20250721_210729_iter_2
-      --db-url sqlite:///tradesv3_ultra_creative_strategy_20250721_210729_iter_2.db
+      --strategy UltraDynamicStrategy_1753139562
+      --db-url sqlite:///data/tradesv3_ultra_creative_strategy_final.db
 
  

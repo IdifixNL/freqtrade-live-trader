@@ -6,7 +6,7 @@ from pandas import DataFrame
 
 class UltraCreativeStrategy_20250721_210729_iter_2(IStrategy):
     INTERFACE_VERSION = 3
-    timeframe = '5m'
+    timeframe = '3m'
     
     minimal_roi = {"0": 0.09}
     stoploss = -0.1
