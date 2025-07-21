@@ -39,7 +39,9 @@
         "pair_whitelist": [
             "BTC/USDT",
             "ETH/USDT",
-            "ADA/USDT"
+            "ADA/USDT",
+            "DOT/USDT",
+            "LINK/USDT"
         ],
         "pair_blacklist": []
     },
@@ -64,23 +66,9 @@
         "remove_pumps": false
     },
     "telegram": {
-        "enabled": false,
-        "token": "",
-        "chat_id": "",
-        "notification_settings": {
-            "status": "on",
-            "warning": "on",
-            "startup": "on",
-            "entry": "on",
-            "entry_cancel": "on",
-            "entry_fill": "on",
-            "exit": "on",
-            "exit_cancel": "on",
-            "exit_fill": "on",
-            "protection_trigger": "on",
-            "protection_trigger_global": "on",
-            "show_candle": "on",
-            "strategy_msg": "on"
+        "enabled": true,
+        "token": "2050519320:AAF0e_3VSsNfdY2KsJPQ8wSFrn3r-TbrX6g",
+        "chat_id": "1150189408"
         },
         "reload": true,
         "balance_dust_level": 0.01,
