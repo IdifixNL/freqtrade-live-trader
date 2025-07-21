@@ -32,8 +32,8 @@
     },
     "exchange": {
         "name": "bybit",
-        "key": "${BYBIT_API_KEY}",
-        "secret": "${BYBIT_SECRET_KEY}",
+        "key": "RUHP9np4tCmdkoPisr",
+        "secret": "EEEv4zGpJ8wojHUl6q0tjzm8b5zO0nTYBIlP",
         "ccxt_config": {},
         "ccxt_async_config": {},
         "pair_whitelist": [

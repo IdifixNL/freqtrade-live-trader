@@ -10,8 +10,7 @@ services:
     volumes:
       - ./user_data:/freqtrade/user_data
       - ./config:/freqtrade/config
-    env_file:
-      - .env
+
     environment:
       - FT_CONFIG_PATH=/freqtrade/config/config.json
     # depends_on:
