@@ -37,11 +37,11 @@
         "ccxt_config": {},
         "ccxt_async_config": {},
         "pair_whitelist": [
-            "BTC/USDT",
-            "ETH/USDT",
-            "ADA/USDT",
             "DOT/USDT",
-            "LINK/USDT"
+            "UNI/USDT",
+            "ETH/USDT",
+            "XRP/USDT",
+            "ALGO/USDT"
         ],
         "pair_blacklist": []
     },
